@@ -52,7 +52,7 @@ strong {
 
 .box {
   background: teal;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   margin: 0.8rem;
   border-radius: 0.5rem;
@@ -116,7 +116,6 @@ strong {
 .box-4 {
   background: var(--White);
   min-width: auto;
-  padding: 2rem;
 }
 .box-3 h3,
 .box-4 h3 {
@@ -144,9 +143,9 @@ strong {
     grid-template-rows: repeat(2, 1fr);
     max-width: 992px;
   }
-  .box {
+  /* .box {
     min-width: 300px;
-  }
+  } */
   .box-1 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -160,9 +159,8 @@ strong {
     grid-column: 4/4;
   }
   strong {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin: 1rem 0;
   }
   p {
     font-size: 0.7rem;
@@ -171,6 +169,12 @@ strong {
 @media screen and (min-width: 992px) {
   .box {
     min-width: 300px;
+  }
+  .box-1 {
+    min-width: 526.2px;
+  }
+  .box-5 {
+    min-width: 526.2px;
   }
   strong {
     font-size: 1rem;
