@@ -19,7 +19,7 @@
 body {
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: var(--lightGray);
+  background-color: var(--lightGrayishblue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +114,7 @@ strong {
 }
 .box-3,
 .box-4 {
-  background: var(--lightGrayishblue);
+  background: var(--White);
 }
 .box-3 h3,
 .box-4 h3 {
